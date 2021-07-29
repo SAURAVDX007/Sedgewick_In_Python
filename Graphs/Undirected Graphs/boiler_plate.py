@@ -1,5 +1,6 @@
 from Graph import Graph
-input_file = open('/Users/sauravkumar/PycharmProjects/data/tinyG.txt', 'r')
+# Note that the files keep on changing with algorithms.
+input_file = open('/Users/sauravkumar/PycharmProjects/Sedgewick_Python/Graphs/Undirected Graphs/bipartite.txt', 'r')
 number_of_vertices = int(input_file.readline().strip('\n'))
 number_of_edges = int(input_file.readline().strip('\n'))
 g = Graph(number_of_vertices, number_of_edges)
