@@ -3,7 +3,7 @@ from LinkedList import LinkedList
 
 # This graph can be made using
 class Graph:
-    def __init__(self, vertices, edges):
+    def __init__(self, vertices, edges=0):
         self.vertices = vertices
         self.edges = edges
         self.array = []
