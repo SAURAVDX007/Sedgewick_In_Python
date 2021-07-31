@@ -7,6 +7,7 @@ class SymbolGraph:
         self.st = dict()  # Key-> String, Value-> Integer
         self.keys = []
 
+        # First pass
         input_file = open(filename)
         for line in input_file:
             adjacent = line.strip().split(delimiter)
@@ -18,6 +19,7 @@ class SymbolGraph:
 
         # Here we create our graph instance. this needed little modification to original graph class
         # where we had to change the edges to default to 0 if not provided in graph constructor.
+        # Second pass
         self.graph = Graph(len(self.st))
         input_file.close()
         input_file = open(filename)
