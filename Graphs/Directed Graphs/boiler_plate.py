@@ -10,9 +10,9 @@ for line in input_file:
     edge2 = int(line.strip('\n').split(" ")[1])
     g.add_edge(edge1, edge2)
 
-marked = [False for i in range(number_of_vertices)]
+# marked = [False for i in range(number_of_vertices)]
 # print(marked)
-g.print_graph()
-digraph_reverse = g.reverse_of_digraph()
-print("*"*50)
-digraph_reverse.print_graph()
+# g.print_graph()
+# digraph_reverse = g.reverse_of_digraph()
+# print("*"*50)
+# digraph_reverse.print_graph()
