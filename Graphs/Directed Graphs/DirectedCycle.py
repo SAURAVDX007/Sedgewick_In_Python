@@ -41,12 +41,12 @@ class DirectedCycle:
 
 
 # Test code for above implementation
-cycle_detection = DirectedCycle(g)
-print(cycle_detection.has_cycle())
-
-cycle_stack = cycle_detection.cycle.stack_list
-for vertex in reversed(cycle_stack):
-    print(vertex)
+# cycle_detection = DirectedCycle(g)
+# print(cycle_detection.has_cycle())
+#
+# cycle_stack = cycle_detection.cycle.stack_list
+# for vertex in reversed(cycle_stack):
+#     print(vertex)
 
 
 
