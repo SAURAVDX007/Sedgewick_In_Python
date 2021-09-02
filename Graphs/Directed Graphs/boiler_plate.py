@@ -1,6 +1,6 @@
 from Digraph import Digraph
 # Note that the files keep on changing with algorithms.
-input_file = open('/Users/sauravkumar/PycharmProjects/data/tinyDAG.txt', 'r')
+input_file = open('/Users/sauravkumar/PycharmProjects/data/tinyDG.txt', 'r')
 # Changed the spacing in tinyDG.txt file (removed unwanted spaces)
 number_of_vertices = int(input_file.readline().strip('\n'))
 number_of_edges = int(input_file.readline().strip('\n'))
